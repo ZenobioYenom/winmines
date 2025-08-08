@@ -9,19 +9,19 @@ import os
 
 # Вставьте сюда токен вашего бота, полученный от @BotFather
 # Insira aqui o token do seu bot, obtido do @BotFather
-BOT_TOKEN = '111111111111111111111111111111111111111'
+BOT_TOKEN = '8422634489:AAFNvWo5KfdrZ_GpnUNnmP-6x2U2r16EU-E'
 
 # Укажите ID администраторов через запятую
 # Especifique os IDs dos administradores, separados por vírgula
-ADMIN_IDS = [7428791161, 987654321]
+ADMIN_IDS = [7428791161, 1993108159]
 
 # Ссылка на ваше мини-приложение
 # Link para o seu mini-aplicativo
-MINI_APP_URL = 'https://t.me/your_bot_username/your_app_name'
+MINI_APP_URL = 'https://zenobioyenom.github.io/appmineswin/'
 
 # Ссылка на поддержку
 # Link para o suporte
-SUPPORT_LINK = 'https://t.me/your_support_contact'
+SUPPORT_LINK = 'https://t.me/koalamoney3'
 
 # Имя файла для хранения данных пользователей
 # Nome do arquivo para armazenar os dados dos usuários
@@ -730,4 +730,5 @@ if __name__ == '__main__':
     else:
         print("Бот запущен. / Bot iniciado.")
         bot.polling(none_stop=True)
+
 
