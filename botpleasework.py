@@ -1,9 +1,17 @@
 # -*- coding: utf-8 -*-
+import os
+import sys
+
+# Lê a variável BOT_ATIVO do Railway (ou usa "false" se não existir)
+BOT_ATIVO = os.getenv("BOT_ATIVO", "false").lower()
+
+if BOT_ATIVO != "true":
+    print("🚫 Bot está desativado pelo administrador. Encerrando...")
+    sys.exit(0)
 
 import telebot
 from telebot import types
 import json
-import os
 
 # --- НАСТРОЙКИ БОТА / CONFIGURAÇÕES DO BOT ---
 
@@ -730,5 +738,6 @@ if __name__ == '__main__':
     else:
         print("Бот запущен. / Bot iniciado.")
         bot.polling(none_stop=True)
+
 
 
