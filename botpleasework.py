@@ -17,7 +17,7 @@ import json
 
 # Вставьте сюда токен вашего бота, полученный от @BotFather
 # Insira aqui o token do seu bot, obtido do @BotFather
-BOT_TOKEN = '8422634489:AAFNvWo5KfdrZ_GpnUNnmP-6x2U2r16EU-E'
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # Укажите ID администраторов через запятую
 # Especifique os IDs dos administradores, separados por vírgula
@@ -738,6 +738,7 @@ if __name__ == '__main__':
     else:
         print("Бот запущен. / Bot iniciado.")
         bot.polling(none_stop=True)
+
 
 
 
