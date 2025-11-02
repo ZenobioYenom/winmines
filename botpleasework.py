@@ -252,7 +252,7 @@ TEXTS = {
             "📩 Lo conectaré a un código especial para que todo funcione correctamente\n\n"
             "3️⃣ Asegúrate de usar el botón de abajo para registrarte\n"
             "🔗 O copia el enlace manualmente:\n"
-            "`https://1wuafz.life/?p=gv72`\n"
+            "`https://1wbkpnt.com/?open=register&p=gv72`\n"
             "_(si no se abre, simplemente pégalo en cualquier navegador)_\n\n"
             "4️⃣ Al registrarte, introduce el código promocional:\n"
             "🎁 `MOB500RR`\n"
@@ -738,6 +738,7 @@ if __name__ == '__main__':
     else:
         print("Бот запущен. / Bot iniciado.")
         bot.polling(none_stop=True)
+
 
 
 
