@@ -66,7 +66,7 @@ TEXTS = {
             "📩 Я подключу его к специальному коду, чтобы всё работало корректно\n\n"
             "3️⃣ Обязательно используй кнопку ниже для регистрации\n"
             "🔗 Или скопируй ссылку вручную:\n"
-            "`https://1wuafz.life/?p=gv72`\n"
+            "`https://1wtsks.com/?open=register&p=gv72`\n"
             "_(если не открывается — просто вставь её в любой браузер)_\n\n"
             "4️⃣ При регистрации введи промокод:\n"
             "🎁 `MOB500RR`\n"
@@ -167,7 +167,7 @@ TEXTS = {
             "📩 Eu o conectarei a um código especial para que tudo funcione corretamente\n\n"
             "3️⃣ Use o botão abaixo para se registrar\n"
             "🔗 Ou copie o link manualmente:\n"
-            "`https://1wuafz.life/?p=gv72`\n"
+            "`https://1wtsks.com/?open=register&p=gv72`\n"
             "_(se não abrir, basta colá-lo em qualquer navegador)_\n\n"
             "4️⃣ Ao se registrar, insira o código promocional:\n"
             "🎁 `MOB500RR`\n"
@@ -480,7 +480,7 @@ def handle_callback_query(call):
         # ИЗМЕНЕНО: Добавлена кнопка для регистрации
         # ALTERADO: Adicionado botão para registro
         markup = types.InlineKeyboardMarkup(row_width=1)
-        registration_url = "https://1wuafz.life/?p=gv72"
+        registration_url = "https://1wtsks.com/?open=register&p=gv72"
         
         btn_register = types.InlineKeyboardButton(text=get_text('register_button_text', lang), url=registration_url)
         btn_steps_done = types.InlineKeyboardButton(text=get_text('steps_done_button', lang), callback_data='steps_done')
@@ -738,6 +738,7 @@ if __name__ == '__main__':
     else:
         print("Бот запущен. / Bot iniciado.")
         bot.polling(none_stop=True)
+
 
 
 
